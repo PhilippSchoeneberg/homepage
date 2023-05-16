@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Philipp Schöneberg</title>
+        <link rel="stylesheet" href="publications.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Philipp Schöneberg">
+		<meta charset="utf-8">
+    </head>
+    <body>
+        <div id="top">
+            <div id="logo">PS</div>
+            <div id="logo-name">Philipp Schöneberg</div>
+            <div id="navigation">
+                <a href="index.html">Über Mich</a>
+                <a href="Jugend forscht.html">Jugend forscht</a>
+				<a href="publications.html">Veröffentlichungen</a>
+				<a href="programmingSkills.html">Informatik Kentnisse</a>
+            </div>
+            <div id="imageTop">
+                <img src="materials/Optimierung der Wasserstoffproduktion durch differenzierte Algenkultivierung.jpg" alt="Bilder der Veröffentlichungen">
+            </div>
+        </div>
+        <div id="main">
+			<section id="Droplet Model Used to Analyze the Early Universe">
+				<h2>Droplet Model Used to Analyze the Early Universe</h2>
+				<p>#</p>
+				<p>Dieser Beitrag wurde in der Fachzeitschrift IJESI eingereicht und ist zurzeit im Veröffentlichungsprozess.</p>
+			</section>
+			<section id="Solution of the Horizon Problem">
+				<h2>Solution of the Horizon Problem</h2>
+				<p>In unserem Beitrag stellen wir eine Lösung des seit 1970 bekannten Horizontproblems vor, welches die Frage aufwirft, wie die Lichtwellen seit dem Zeitpunkt des Urknalls den Horizont des expandierenden Universums thermalisieren konnten. Unser Lösungsweg bedient sich Berechnungen, Diagrammen, sowie eines eigens entwickelten Zeitverlaufs. Diesen haben wir bereits in dem Beitrag „Solution of a Density Problem in the Early Universe“ in der Zeitschrift PhyDid B pp. 43-46 (Frühjahrstagung 2020) vorgestellt. In diesem Zeitverlauf nutzen wir dimensionale Übergänge, welche im direkten Zusammenhang zur Größe des Universums und der somit von den Lichtwellen zu überwindenden Distanz stehen. Dadurch können wir darstellen, wie durch die anfänglich großen Dimensionen, die Distanzen gering waren und die Lichtwellen früh den Horizont thermalisieren konnten.</p>
+				<p>Dieser Beitrag wurde in der zum wurde im Tagungsband Didaktig B der Deutschen Physikalischen Gesellschaft zur Frühjahrstagung 2021 veröffentlicht. Klicke <a href="http://www.phydid.de/index.php/phydid-b/article/view/1197/1272" title="Klick hier, um zum Beitrag zu gelangen!" target="_blank">hier</a> um zur Veröffentlichung zu gelangen.</p>
+			</section>
+            <section id="Solution of a Density Problem in the Early Universe">
+				<h2>Solution of a Density Problem in the Early Universe</h2>
+				<p>In dem folgenden Artikel möchten wir ein Problem der allgemeinen Relativitätstheorie lösen. Diese Lösung verlässt den Makrokosmos und nutzt den Mikrokosmos, um zu erklären wie sie funktioniert. Um diese Lösung genauestens zu erläutern werde wir einige Formeln, Berechnungen, Modelle, Tabellenkalkulationen und Diagrammen zeigen und erklären. Zum Schluss zeigen wir die Lösung mit Ergebnissen von realen physikalischen Größen. </p>
+				<p>Dieser Beitrag wurde in der zum wurde im Tagungsband Didaktig B der Deutschen Physikalischen Gesellschaft zur Frühjahrstagung 2020 veröffentlicht. Klicke <a href="http://www.phydid.de/index.php/phydid-b/article/view/1098/1184" title="Klick hier, um zum Beitrag zu gelangen!" target="_blank">hier</a> um zur Veröffentlichung zu gelangen.</p>
+			</section>
+			<section id="clue">
+				</BR>
+				<h2>Hinweis</h2>
+				<p>Der Webmaster dieser Website erklärt hiermit ausdrücklich, dass er keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten hat. Deshalb distanziert er sich ausdrücklich von allen Inhalten aller gelinkten Seiten auf dieser Homepage und macht sich diese Inhalte nicht zu Eigen. Diese Erklärung gilt für alle in dieser Domain gezeigten Links und für alle Inhalte der Seiten, zu denen die hier angemeldeten Banner und Links führen.</p>
+            </section>
+        </div>
+        <div id="footer">
+            © Philipp Schöneberg
+        </div>
+    </body>
+</html>

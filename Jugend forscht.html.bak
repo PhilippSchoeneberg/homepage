@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Philipp Schöneberg</title>
+        <link rel="stylesheet" href="Jugend forscht.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Philipp Schöneberg">
+		<meta charset="utf-8">
+    </head>
+    <body>
+        <div id="top">
+            <div id="logo">PS</div>
+            <div id="logo-name">Philipp Schöneberg</div>
+            <div id="navigation">
+                <a href="index.html">Über Mich</a>
+                <a href="Jugend forscht.html">Jugend forscht</a>
+				<a href="publications.html">Veröffentlichungen</a>
+				<a href="programmingSkills.html">Informatik Kentnisse</a>
+            </div>
+            <div id="imageTop">
+                <img src="materials/Optimierung der Wasserstoffproduktion durch differenzierte Algenkultivierung.jpg" alt="Bilder meiner verschiedenen Jugend forscht Projekte">
+            </div>
+        </div>
+        <div id="main">
+            <section id="2022">
+				<h2>2022</h2>
+				<h3>Optimierung der Wasserstoffproduktion durch differenzierte Algenkultivierung</h3>
+				<p>In unserem Projekt geht es um die Erforschung der Algenkultivierung und die Optimierung der Wasserstoffproduktion durch die Veränderung verschiedenster Einflüsse während des Algenwachstums. Wir arbeiten steril mit professionellen Geräten, um beispielsweise die Lichtintensität und Temperatur bei der Kultivierung konstant zu kontrollieren und zu beobachten. Außerdem nutzen wir Sensoren, um die Algenkonzentration zu überwachen. Wir erhoffen uns, durch unsere Forschungen neue Kenntnisse im Bereich der Algenkultivierung zu gewinnen und diese nutzbar für verschiedene Probleme unserer heutigen Gesellschaft machen zu können.</p>
+				<p>Die Langfassung zum Projekt könnt ihr <a href="materials/Optimierung der Wasserstoffproduktion durch differenzierte Algenkultivierung.pdf" title="Klick hier, um zur Langfassung zur gelangen!" target="_blank">hier</a> downloaden.</p>
+				<h3>Anwendung des Tröpfchenmodells auf das Horizontproblem</h3>
+				<p>In meinem Projekt geht es um die Anwendung eines Tröpfchenmodells auf das Horizontproblem im frühen Universum. Ich analysiere die dichtebedingten dimensionalen Phasenübergänge und deren Auswirkung auf das Horizontproblem. Hierzu führe ich Tabellenkalkulationen durch und stelle meine Ergebnisse anschaulich in Diagrammen dar.</p>
+				<p>Die Langfassung zum Projekt könnt ihr <a href="materials/Anwendung des Tröpfchenmodells auf das Horizontproblem.pdf" title="Klick hier, um zur Langfassung zur gelangen!" target="_blank">hier</a> downloaden.</p>
+			</section>
+			<section id="2021">
+				<h2>2021</h2>
+				<h3>Lösung des Horizontproblems</h3>
+				<p>In meinem Projekt stelle ich eine Lösung des seit 1970 bekannten Horizontproblems vor, welches die Frage aufwirft, wie die Lichtwellen seit dem Zeitpunkt des Urknalls den Horizont des expandierenden Universums thermalisieren konnten. Mein Lösungsweg besteht aus Berechnungen, Diagrammen, sowie einer eigens entwickelten Dynamik. Diese habe ich bereits in dem Beitrag „Solution of a Density Problem in the Early Universe“ in der Zeitschrift PhyDid B pp. 43 – 46 (Frühjahrstagung 2020) vorgestellt. In dieser Dynamik nutze ich dimensionale Übergänge, welche im direkten Zusammenhang zur Größe des Universums und der somit von den Lichtwellen zu überwindenden Distanz stehen. Dadurch kann ich darstellen, wie durch die anfänglich großen Dimensionen, die Distanzen gering waren und die Lichtwellen früh den Horizont thermalisieren konnten.</p>
+				<p>Die Langfassung zum Projekt könnt ihr <a href="materials/Lösung des Horizontproblems.pdf" title="Klick hier, um zur Langfassung zur gelangen!" target="_blank">hier</a> downloaden.</p>
+			</section>
+			<section id="2020">
+				<h2>2020</h2>
+				<h3>Entwicklung eines Modellroboters für den Obstanbau</h3>
+				<p>In meinem Projekt geht es um das Ziel einen Modellroboter zu entwickeln, welcher beim Obstanbau behilflich sein soll. Dazu soll er sich in einem Obsthof orientieren und von den einzelnen Bäumen in einem gewissen Abstand die Wurzeln kürzen. Dies bewirkt, dass der Baum weniger Energie an die Wurzeln und mehr Energie an die Früchte abgibt.</p>
+				<p>Die Langfassung zum Projekt könnt ihr <a href="materials/Entwicklung eines Modellroboters für den Obstanbau.pdf" title="Klick hier, um zur Langfassung zur gelangen!" target="_blank">hier</a> downloaden.</p>
+			</section>
+			<section id="2019">
+				<h2>2019</h2>
+				<h3>Nerfpfeil Geschwindigkeitsuntersuchungen</h3>
+				<p>In meinem Projekt untersuche ich Eigenschaften des sogenannten „Nerf Disruptor“. Beispielsweise die Geschwindigkeit mit der er Pfeile verschießt.</p>
+				<p>Die Langfassung zum Projekt könnt ihr <a href="materials/Nerfpfeil Geschwindigkeitsuntersuchung.pdf" title="Klick hier, um zur Langfassung zur gelangen!" target="_blank">hier</a> downloaden.</p>
+			</section>
+			<section id="clue">
+				</BR>
+				<h2>Hinweis</h2>
+				<p>Der Webmaster dieser Website erklärt hiermit ausdrücklich, dass er keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten hat. Deshalb distanziert er sich ausdrücklich von allen Inhalten aller gelinkten Seiten auf dieser Homepage und macht sich diese Inhalte nicht zu Eigen. Diese Erklärung gilt für alle in dieser Domain gezeigten Links und für alle Inhalte der Seiten, zu denen die hier angemeldeten Banner und Links führen.</p>
+            </section>
+        </div>
+        <div id="footer">
+            © Philipp Schöneberg
+        </div>
+    </body>
+</html>
