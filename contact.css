@@ -45,7 +45,7 @@ a:hover {
 #main1 {
     max-width: 800px;
     margin: auto;
-    text-align: justify;
+    text-align: center;
 }
 
 #footer0 {
@@ -60,6 +60,12 @@ a:hover {
 }
 
 #footer1 {
-    text-align: center;
-    color: gray;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    text-align: justify;
+    color: grey;
+    max-width: 800px;
+    padding: 16px;
 }

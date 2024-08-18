@@ -45,15 +45,24 @@ a:hover {
 
 #main1 {
     max-width: 800px;
-    margin: auto;
-    text-align: justify;
+    margin-top: 5%;
+    margin-left: auto;
+    text-align: center;
 }
 
 #biography {
     text-align: justify;
 }
 
-#profilePicture {
+#main0 > #profilePicture {
+    align-self: center;
+    width: 20vw;
+    height: 28vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#main1 > #profilePicture {
     width: 20vw;
     height: 28vmin;
     object-fit: cover;
@@ -72,6 +81,12 @@ a:hover {
 }
 
 #footer1 {
-    text-align: center;
-    color: gray;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
+    text-align: justify;
+    color: grey;
+    max-width: 800px;
+    padding: 16px;
 }
