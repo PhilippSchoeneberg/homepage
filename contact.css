@@ -61,10 +61,8 @@ a:hover {
 
 #footer1 {
     position: absolute;
-    left: 50%;
     bottom: 0%;
-    transform: translate(-50%, 0%);
-    text-align: justify;
+    text-align: center;
     color: grey;
     max-width: 800px;
     padding: 16px;
