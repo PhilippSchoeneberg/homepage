@@ -44,8 +44,6 @@ a:hover {
 }
 
 #main1 {
-    display: block;
-    position: static;
     max-width: 800px;
     margin: auto;
     text-align: justify;
@@ -56,7 +54,7 @@ a:hover {
 }
 
 #profilePicture {
-    width: 100%;
+    width: 20vw;
     height: 28vmin;
     object-fit: cover;
     object-position: center;

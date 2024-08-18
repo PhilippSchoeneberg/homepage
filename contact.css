@@ -43,7 +43,6 @@ a:hover {
 }
 
 #main1 {
-    position: static;
     max-width: 800px;
     margin: auto;
     text-align: justify;
