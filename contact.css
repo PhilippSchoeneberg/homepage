@@ -33,7 +33,7 @@ a:hover {
     color: grey;
 }
 
-#main {
+#main0 {
     position: absolute;
     left: 50%;
     top: 45%;
@@ -42,7 +42,13 @@ a:hover {
     max-width: 800px;
 }
 
-#footer {
+#main1 {
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+
+#footer0 {
     position: absolute;
     left: 50%;
     bottom: 0%;
@@ -51,4 +57,9 @@ a:hover {
     color: grey;
     max-width: 800px;
     padding: 16px;
+}
+
+#footer1 {
+    text-align: center;
+    color: gray;
 }
