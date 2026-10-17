@@ -1,0 +1,20 @@
+# Homepage with the same URLs as on GitHub Pages:
+# the pages come from src/frontend/html, css/, js/ and assets/ sit next to html/.
+philipp-schoeneberg.de {
+	encode zstd gzip
+
+	@static path /css/* /js/* /assets/*
+	handle @static {
+		root * /srv/frontend
+		file_server
+	}
+
+	handle {
+		root * /srv/frontend/html
+		file_server
+	}
+}
+
+www.philipp-schoeneberg.de {
+	redir https://philipp-schoeneberg.de{uri} permanent
+}
