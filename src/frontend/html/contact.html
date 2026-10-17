@@ -1,41 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Philipp Schöneberg</title>
-        <link rel="icon" href="../assets/images/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Contact · Philipp Schöneberg</title>
+        <meta name="description" content="Get in touch with Philipp Schöneberg by email or on GitHub.">
+        <meta name="author" content="Philipp Schöneberg">
+        <meta name="color-scheme" content="light dark">
+        <meta name="theme-color" content="#f9f9f9" media="(prefers-color-scheme: light)">
+        <meta name="theme-color" content="#131313" media="(prefers-color-scheme: dark)">
+        <link rel="canonical" href="https://philipp-schoeneberg.de/contact.html">
+        <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+        <link rel="icon" href="../assets/images/favicon-32.png" sizes="32x32" type="image/png">
+        <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+        <link rel="preload" href="../assets/fonts/roboto-flex-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="stylesheet" href="../css/common.css">
-        <link rel="stylesheet" href="../css/contact.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Philipp Schöneberg">
-		<meta charset="utf-8">
+        <script src="../js/theme.js"></script>
     </head>
     <body>
-        <section id="top">
-            <div id="logo-name">Philipp Schöneberg</div>
-            <div id="navigation">
-                <a href="index.html">Biography</a>
-                <a href="JugendForscht.html">Jugend forscht</a>
-				<a href="publications.html">Publications</a>
-				<a href="programmingSkills.html">Programming skills</a>
-                <a href="contact.html">Contact</a>
+        <a class="skip-link label-large" href="#content">Skip to content</a>
+        <header class="top-app-bar">
+            <div class="container top-app-bar-inner">
+                <a class="app-title title-large" href="index.html">Philipp Schöneberg</a>
+                <nav class="nav" aria-label="Main">
+                    <a class="nav-item label-large" href="index.html">
+                        <span class="nav-indicator"><svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg></span>
+                        <span class="nav-label">Home</span>
+                    </a>
+                    <a class="nav-item label-large" href="experience.html">
+                        <span class="nav-indicator"><svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"/></svg></span>
+                        <span class="nav-label">Experience</span>
+                    </a>
+                    <a class="nav-item label-large" href="research.html">
+                        <span class="nav-indicator"><svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm0-80h560L520-492v-268h-80v268L200-200Zm280-280Z"/></svg></span>
+                        <span class="nav-label">Research</span>
+                    </a>
+                    <a class="nav-item label-large" href="projects.html">
+                        <span class="nav-indicator"><svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/></svg></span>
+                        <span class="nav-label">Projects</span>
+                    </a>
+                    <a class="nav-item label-large" href="contact.html" aria-current="page">
+                        <span class="nav-indicator"><svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280 320-200v-80L480-520 160-720v80l320 200Z"/></svg></span>
+                        <span class="nav-label">Contact</span>
+                    </a>
+                </nav>
+                <button class="icon-button theme-toggle" type="button" aria-label="Switch theme" hidden>
+                    <svg class="icon icon-moon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+                    <svg class="icon icon-sun" viewBox="0 -960 960 960" aria-hidden="true"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+                </button>
             </div>
-        </section>
-        <section id="main0">
-            <div id="contact">
-                <h2>Contact</h2>
-				<p>E-Mail: philipp.schoeneberg2004@gmx.de</p>
-				<p>Phone number: +49 1525 2487410</p>
-            </div>
-        </section>
-        <section id="footer0">
-            <div id="note">
-                <h2>Note</h2>
-                <p>The webmaster of this website hereby expressly declares that he has no influence whatsoever on the design and content of the linked pages. He therefore expressly dissociates himself from all contents of all linked pages on this homepage and does not adopt these contents as his own. This declaration applies to all links displayed on this domain and to all contents of the pages to which the banners and links registered here lead.</p>
-            </div>
-            <div>
+        </header>
+
+        <main id="content" class="container">
+            <header class="page-header">
+                <h1 class="display-small">Get in touch</h1>
+                <p class="body-large lead">Whether it's about research, a project or an opportunity – I'm happy to hear from you. Email is the best way to reach me.</p>
+            </header>
+
+            <section class="section">
+                <div class="grid grid-2">
+                    <a class="card card-elevated card-action card-roomy" href="mailto:philipp.schoeneberg2004@gmx.de">
+                        <span class="icon-container"><svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg></span>
+                        <h2 class="title-large">Email</h2>
+                        <p class="body-medium card-subtitle">philipp.schoeneberg2004@gmx.de</p>
+                        <span class="label-large card-link-label">Write an email <svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></span>
+                    </a>
+                    <a class="card card-elevated card-action card-roomy" href="https://github.com/PhilippSchoeneberg" target="_blank" rel="noopener me">
+                        <span class="icon-container"><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span>
+                        <h2 class="title-large">GitHub</h2>
+                        <p class="body-medium card-subtitle">github.com/PhilippSchoeneberg</p>
+                        <span class="label-large card-link-label">View profile <svg class="icon" viewBox="0 -960 960 960" aria-hidden="true"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer body-medium">
+            <div class="container footer-inner">
                 <p>© Philipp Schöneberg</p>
+                <ul class="footer-links">
+                    <li><a href="impressum.html">Legal notice</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="https://github.com/PhilippSchoeneberg" target="_blank" rel="noopener me">GitHub</a></li>
+                </ul>
             </div>
-        </section>
-        <script src="../js/sizeFitter.js"></script>
+        </footer>
     </body>
 </html>

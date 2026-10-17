@@ -1,6 +1,6 @@
 # Publishes the static frontend to GitHub Pages.
 # The pages from src/frontend/html are placed at the site root so the public URLs
-# (e.g. /JugendForscht.html, /formelx/) stay the same; css, js and assets sit next to them.
+# (e.g. /JugendForscht.html, /contact.html) stay the same; css, js and assets sit next to them.
 name: Deploy to GitHub Pages
 
 on:
