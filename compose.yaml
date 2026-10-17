@@ -1,0 +1,19 @@
+# Runs the homepage on the server: Caddy serves src/frontend and handles HTTPS.
+# On the server:  cd /opt/homepage && docker compose up -d
+services:
+  caddy:
+    image: caddy:2.11
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp" # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ./src/frontend:/srv/frontend:ro
+      - caddy_data:/data # certificates - don't delete this volume
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
